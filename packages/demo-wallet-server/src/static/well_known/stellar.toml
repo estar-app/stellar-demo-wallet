@@ -1,18 +1,26 @@
-ACCOUNTS = [ "GBM53YM5CUICEOTGY3N2UJLLZ4QXNCAANINBNLHSNTEULBQ3HENOUU2J", "GDRND2IUXVMHZ4XTB2RZ4AJ3AOLON3WTAOC23XEASB56NHDFW3ED57TW" ]
+ACCOUNTS = ["GAIXTJGANTERAERDZN72GJTAU4YYEFH2HZNKDDBWQKFY7W6LC4WLLVHV"]
 VERSION = "0.1.0"
-SIGNING_KEY = "GBM53YM5CUICEOTGY3N2UJLLZ4QXNCAANINBNLHSNTEULBQ3HENOUU2J"
 NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
+SIGNING_KEY = "GCJIKEKFS5YQP6OE7E6AALGD53NKFOHO6G7TGSMAB4X264SIFDOIVHP5"
 
-[[PRINCIPALS]]
-name = "Stephen Fung"
-email = "stephen@stellar.org"
-keybase = "stfung77"
-github = "https://www.github.com/stfung77"
+WEB_AUTH_ENDPOINT = "http://localhost:8080/auth"
+KYC_SERVER = "http://localhost:8080/sep12"
+TRANSFER_SERVER_SEP0024 = "http://localhost:8080/sep24"
+DIRECT_PAYMENT_SERVER = "http://localhost:8080/sep31"
+ANCHOR_QUOTE_SERVER = "http://localhost:8080/sep38"
 
-[DOCUMENTATION]
-ORG_NAME = "Stellar Development Foundation"
-ORG_URL = "https://stellar.org"
-ORG_DESCRIPTION = "demo wallet backend server."
-ORG_KEYBASE = "stellar.public"
-ORG_TWITTER = "StellarOrg"
-ORG_GITHUB = "stellar"
+[[CURRENCIES]]
+code = "NATUREUSD"
+issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
+status = "test"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+desc = "A test NATUREUSD issued by Stellar."
+
+[[CURRENCIES]]
+code = "NATURENGN"
+issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
+status = "test"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+desc = "A test NATURENGN issued by Stellar."
