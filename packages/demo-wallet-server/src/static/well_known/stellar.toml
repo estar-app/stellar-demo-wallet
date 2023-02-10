@@ -1,13 +1,15 @@
+# /.well-known/stellar.toml file
+
 ACCOUNTS = ["GAIXTJGANTERAERDZN72GJTAU4YYEFH2HZNKDDBWQKFY7W6LC4WLLVHV"]
 VERSION = "0.1.0"
 NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
 SIGNING_KEY = "GCJIKEKFS5YQP6OE7E6AALGD53NKFOHO6G7TGSMAB4X264SIFDOIVHP5"
 
-WEB_AUTH_ENDPOINT = "http://localhost:8080/auth"
-KYC_SERVER = "http://localhost:8080/sep12"
-TRANSFER_SERVER_SEP0024 = "http://localhost:8080/sep24"
-DIRECT_PAYMENT_SERVER = "http://localhost:8080/sep31"
-ANCHOR_QUOTE_SERVER = "http://localhost:8080/sep38"
+WEB_AUTH_ENDPOINT = "https://godstabernacle.xyz:8080/auth"
+KYC_SERVER = "https://godstabernacle.xyz:8080/sep12"
+TRANSFER_SERVER_SEP0024 = "https://godstabernacle.xyz:8080/sep24"
+DIRECT_PAYMENT_SERVER = "https://godstabernacle.xyz:8080/sep31"
+ANCHOR_QUOTE_SERVER = "https://godstabernacle.xyz:8080/sep38"
 
 [[CURRENCIES]]
 code = "NATUREUSD"
@@ -15,7 +17,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
-desc = "A test NATUREUSD issued by Stellar."
+desc = "A test NATUREUSD issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
 code = "NATURENGN"
@@ -23,4 +25,36 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
-desc = "A test NATURENGN issued by Stellar."
+desc = "A test NATURENGN issued by Global Fund 4 Nature."
+
+[[CURRENCIES]]
+code = "NATUREURO"
+issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
+status = "test"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+desc = "A test NATUREURO issued by Global Fund 4 Nature."
+
+[[CURRENCIES]]
+code = "NATURECFA"
+issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
+status = "test"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+desc = "A test NATURECFA issued by Global Fund 4 Nature."
+
+[[CURRENCIES]]
+code = "NATUREGBP"
+issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
+status = "test"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+desc = "A test NATUREGBP issued by Global Fund 4 Nature."
+
+[[CURRENCIES]]
+code = "NATUREJPY"
+issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
+status = "test"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+desc = "A test NATUREJPY issued by Global Fund 4 Nature."
