@@ -4,6 +4,7 @@ ACCOUNTS = ["GAIXTJGANTERAERDZN72GJTAU4YYEFH2HZNKDDBWQKFY7W6LC4WLLVHV"]
 VERSION = "0.1.0"
 NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
 SIGNING_KEY = "GCJIKEKFS5YQP6OE7E6AALGD53NKFOHO6G7TGSMAB4X264SIFDOIVHP5"
+HOME_DOMAIN = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
 
 WEB_AUTH_ENDPOINT = "https://godstabernacle.xyz:8080/auth"
 KYC_SERVER = "https://godstabernacle.xyz:8080/sep12"
@@ -11,12 +12,23 @@ TRANSFER_SERVER_SEP0024 = "https://godstabernacle.xyz:8080/sep24"
 DIRECT_PAYMENT_SERVER = "https://godstabernacle.xyz:8080/sep31"
 ANCHOR_QUOTE_SERVER = "https://godstabernacle.xyz:8080/sep38"
 
+[DOCUMENTATION]
+ORG_NAME="Global Fund 4 Nature"
+ORG_URL="https://godstabernacle.xyz"
+ORG_LOGO="https://godstabernacle.xyz/logo.png"
+ORG_DESCRIPTION="Recreo, Replete Terram"
+ORG_PHONE_NUMBER="+2349058528334"
+ORG_TWITTER="nature2471"
+ORG_GITHUB="nature-smartchain"
+ORG_OFFICIAL_EMAIL="info@godstabernacle.xyz"
+
 [[CURRENCIES]]
 code = "NATUREUSD"
 issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
+home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
 desc = "A test NATUREUSD issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -25,6 +37,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
+home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
 desc = "A test NATURENGN issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -33,6 +46,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
+home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
 desc = "A test NATUREURO issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -41,6 +55,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
+home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
 desc = "A test NATURECFA issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -49,6 +64,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
+home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
 desc = "A test NATUREGBP issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -57,4 +73,6 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
+home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
 desc = "A test NATUREJPY issued by Global Fund 4 Nature."
+
