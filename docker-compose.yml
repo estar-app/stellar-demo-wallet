@@ -5,8 +5,8 @@ services:
       context: .
       dockerfile: Dockerfile-client
       args:
-        REACT_APP_CLIENT_DOMAIN: docker.for.mac.host.internal:7000
-        REACT_APP_WALLET_BACKEND_ENDPOINT: http://localhost
+        REACT_APP_CLIENT_DOMAIN: paygod.godstabernacle.xyz
+        REACT_APP_WALLET_BACKEND_ENDPOINT: https://paygod.godstabernacle.xyz
     env_file:
       - .env
     ports:
