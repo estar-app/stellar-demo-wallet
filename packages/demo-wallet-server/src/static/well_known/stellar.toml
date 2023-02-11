@@ -25,7 +25,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
-home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
+home_domain = "paygod.godstabernacle.xyz"
 desc = "A test NATUREUSD issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -34,7 +34,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
-home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
+home_domain = "paygod.godstabernacle.xyz"
 desc = "A test NATURENGN issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -43,7 +43,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
-home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
+home_domain = "paygod.godstabernacle.xyz"
 desc = "A test NATUREURO issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -52,7 +52,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
-home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
+home_domain = "paygod.godstabernacle.xyz"
 desc = "A test NATURECFA issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -61,7 +61,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
-home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
+home_domain = "paygod.godstabernacle.xyz"
 desc = "A test NATUREGBP issued by Global Fund 4 Nature."
 
 [[CURRENCIES]]
@@ -70,7 +70,7 @@ issuer = "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK"
 status = "test"
 is_asset_anchored = true
 anchor_asset_type = "fiat"
-home_domain = "s3.eu-central-1.amazonaws.com/godstabernacle.xyz"
+home_domain = "paygod.godstabernacle.xyz"
 desc = "A test NATUREJPY issued by Global Fund 4 Nature."
 
 [DOCUMENTATION]
