@@ -13,13 +13,20 @@ export const PRESET_ASSETS: presetAsset[] = [
     assetCode: "MYASSET",
     homeDomain: "sep8-server.dev.stellar.org",
   },
+   {
+    assetCode: "NATUREUSD",
+    issuerPublicKey: "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK",
+    homeDomain: "paygod.godstabernacle.xyz",
+  },
   {
     assetCode: "NATUREUSD",
     issuerPublicKey: "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK",
+    homeDomain: "paygod.godstabernacle.xyz",
   },
    {
     assetCode: "NATURENGN",
     issuerPublicKey: "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK",
+    homeDomain: "paygod.godstabernacle.xyz",
   },
    {
     assetCode: "NATUREURO",
@@ -29,10 +36,12 @@ export const PRESET_ASSETS: presetAsset[] = [
    {
     assetCode: "NATURECFA",
     issuerPublicKey: "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK",
+    homeDomain: "paygod.godstabernacle.xyz",
   },
    {
     assetCode: "NATUREGBP",
     issuerPublicKey: "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK",
+    homeDomain: "paygod.godstabernacle.xyz",
   },
    {
     assetCode: "NATUREJPY",
@@ -42,6 +51,7 @@ export const PRESET_ASSETS: presetAsset[] = [
   {
     assetCode: "USDN",
     issuerPublicKey: "GBSBVFTPVRTCIM3DCDOXNRTAPPTJQBRLPNVQYKFUTHLMDR43HJYO2YHZ",
+    homeDomain: "paygod.godstabernacle.xyz",
   },
   
 ];
