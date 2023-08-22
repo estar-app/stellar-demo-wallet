@@ -5,9 +5,8 @@ services:
       context: .
       dockerfile: Dockerfile-client
       args:
-        REACT_APP_CLIENT_DOMAIN: paygod.godstabernacle.xyz
-        REACT_APP_WALLET_BACKEND_ENDPOINT: https://paygod.godstabernacle.xyz
-    env_file:
+        REACT_APP_CLIENT_DOMAIN: wallet.zingypay.com
+        REACT_APP_WALLET_BACKEND_ENDPOINT: https://wallet.zingypay.com
       - .env
     ports:
       - "8000:80"

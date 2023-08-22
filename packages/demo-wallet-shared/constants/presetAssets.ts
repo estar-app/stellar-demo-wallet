@@ -14,19 +14,19 @@ export const PRESET_ASSETS: presetAsset[] = [
     homeDomain: "sep8-server.dev.stellar.org",
   },
    {
-    assetCode: "NATUREUSD",
-    issuerPublicKey: "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK",
-    homeDomain: "paygod.godstabernacle.xyz",
+    assetCode: "AFRO",
+    issuerPublicKey: "GBUYO263AYAZZKZI5ZCZFCPIGC42JVCGAOIP2CBBCUP2UTCEUIPIE2VV",
+    homeDomain: "zingypay.com",
   },
   {
-    assetCode: "NATUREUSD",
-    issuerPublicKey: "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK",
-    homeDomain: "paygod.godstabernacle.xyz",
+    assetCode: "LIFE",
+    issuerPublicKey: "GBUYO263AYAZZKZI5ZCZFCPIGC42JVCGAOIP2CBBCUP2UTCEUIPIE2VV",
+    homeDomain: "zingypay.com",
   },
    {
-    assetCode: "NATURENGN",
-    issuerPublicKey: "GA3BJUBNOIHANBJEKZFSQTCRB5CUQ4GSENQHVC5QNZGGSK3ILAZS6ATK",
-    homeDomain: "paygod.godstabernacle.xyz",
+    assetCode: "NATURE",
+    issuerPublicKey: "GBUYO263AYAZZKZI5ZCZFCPIGC42JVCGAOIP2CBBCUP2UTCEUIPIE2VV",
+    homeDomain: "zingypay.com",
   },
    {
     assetCode: "NATUREURO",
